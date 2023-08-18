@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="listas">
+            <h2>Listas</h2>
+
+            <ol>
+                <li>Golf</li>
+                <li>Passat</li>
+                <li>Jetta</li>
+                <li>Tiguan</li>
+                <li>Nivus</li>
+            </ol>
+
+            <ul>
+                <li>GTA V</li>
+                <li>Batman Arkham Knight</li>
+                <li>Gears of War Ultimate Edition</li>
+                <li>Marvel Avengers</li>
+                <li>Forza Horizon 5</li>
+            </ul>
+        </section>
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+            <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>JDM</th>
+                            <th>Americano</th>
+                            <th>Brasileiro</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Skyline</th>
+                            <td>Charger</th>
+                            <td>Opala</th>
+                        </tr>
+
+                        <tr>
+                            <td>Supra</td>
+                            <td>Challenger</td>
+                            <td>Chevette</td>
+                        </tr>
+
+                        <tr>
+                            <td>Rx7</td>
+                            <td>Ford GT40</td>
+                            <td>Uno com escada</td>
+                        </tr>
+
+                        <tr>
+                            <td>Gtr R35</td>
+                            <td>Dodge Ram</td>
+                            <td>Gol</td>
+                        </tr>
+
+                        <tr>
+                            <td>Silvia S15</td>
+                            <td>Viper</td>
+                            <td>Brasilia</td>
+                        </tr>
+
+                        <tr>
+                            <td>NSX</td>
+                            <td>Mustang</td>
+                            <td>Parati</td>
+                        </tr>
+                    </tbody>
+
+
+                </table>
+            </main>
+        </section>
+        <section id="formularios">
+            <h2>Formulários</h2>
+            <main>
+                <form action="" id="formulario">
+                    <fieldset>
+                        <legend>Cadastro do aplicativo</legend>
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input id="nome" type="text">
+                        </div>
+
+                        <div>
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input id="sobrenome" type="text">
+                        </div>
+
+                        <div>
+                            <label for="nome de usuario">Nome de Usuário:</label>
+                            <input id="nome-usuario" type="text">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input id="email" type="email">
+                        </div>
+
+                        <div>
+                            <label for="senha">Senha:</label>
+                            <input id="senha" type="password">
+                        </div>
+
+                        <div>
+                            <label for="confirmação de senha">Confirmação de Senha:</label>
+                            <input id="confirmacao-senha" type="password">
+                        </div>
+
+                        <div>
+                            <label for="Data de nascimento">Data de nascimento:</label>
+                            <input id="data-nascimento" type="date">
+                        </div>
+
+                        <div>
+                            <label for="cpf">CPF:</label>
+                            <input id="cpf" type="number">
+                        </div>
+
+                        <div>
+                            <label for="numero de telefone">Número de telefone:</label>
+                            <input id="numero-telefone" type="number">
+                        </div>
+                        
+                        <div>
+                            <input id="termos" type="checkbox">
+                            <label for="termos">Eu concordo com os termos</label>
+                        </div>
+                        <button>Registrar</button>
+                    </fieldset>
+                </form>
+            </main>
+        </section>
+    </main>
+</body>
+</html>
